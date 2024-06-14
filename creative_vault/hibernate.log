@@ -1,0 +1,446 @@
+2024-05-19 18:41:56,885 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'creativevault.artist_rating' doesn't exist
+2024-05-19 18:44:42,745 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'creativevault.artist_rating' doesn't exist
+2024-05-19 18:57:58,938 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'creativevault.artist_rating' doesn't exist
+2024-05-19 19:02:58,541 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'creativevault.artist_rating' doesn't exist
+2024-05-19 19:04:36,624 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'creativevault.artist_rating' doesn't exist
+2024-05-19 20:41:46,734 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 20:41:46,741 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'artist_id_fk' cannot be null
+2024-05-19 21:44:03,542 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'artist_id_fk' cannot be null
+2024-05-19 21:56:53,044 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-19 21:57:09,046 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-19 21:59:59,693 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-19 22:34:05,999 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-19 22:54:57,468 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 22:54:57,475 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'artist_id_fk' cannot be null
+2024-05-19 23:01:22,420 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:11:17,238 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:15:14,736 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:18:36,504 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:24:16,846 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:26:24,124 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:27:52,890 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:30:58,994 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:35:10,362 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:43:09,304 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:43:34,939 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-19 23:50:37,293 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'user_id_fk' cannot be null
+2024-05-21 19:19:42,463 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+2024-05-21 19:19:42,466 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+org.hibernate.hql.internal.ast.InvalidPathException: Invalid path: 'aw.title'
+	at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:1055)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1308)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4778)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4244)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:19:42,468 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+2024-05-21 19:19:42,468 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+antlr.NoViableAltException: unexpected end of subtree
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4860)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4247)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:19:42,469 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+2024-05-21 19:19:42,469 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+antlr.SemanticException: left-hand operand of a binary operator was null
+	at org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode.initialize(BinaryLogicOperatorNode.java:41)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.prepareLogicOperator(HqlSqlWalker.java:1478)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4719)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:21:35,762 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+2024-05-21 19:21:35,762 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+org.hibernate.hql.internal.ast.InvalidPathException: Invalid path: 'aw.title'
+	at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:1055)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1308)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4778)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4244)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:21:35,762 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+2024-05-21 19:21:35,762 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+antlr.NoViableAltException: unexpected end of subtree
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4860)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4247)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:21:35,763 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+2024-05-21 19:21:35,763 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+antlr.SemanticException: left-hand operand of a binary operator was null
+	at org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode.initialize(BinaryLogicOperatorNode.java:41)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.prepareLogicOperator(HqlSqlWalker.java:1478)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4719)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.PortfolioMenu.updateArtWork(PortfolioMenu.java:141)
+	at view.PortfolioMenu.showPortfolioMenu(PortfolioMenu.java:41)
+	at view.Menu.showArtistMenu(Menu.java:182)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:22:51,906 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+2024-05-21 19:22:51,908 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+org.hibernate.hql.internal.ast.InvalidPathException: Invalid path: 'aw.title'
+	at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:1055)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1308)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4778)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4244)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:22:51,910 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+2024-05-21 19:22:51,910 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+antlr.NoViableAltException: unexpected end of subtree
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4860)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4247)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:22:51,910 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+2024-05-21 19:22:51,910 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+antlr.SemanticException: left-hand operand of a binary operator was null
+	at org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode.initialize(BinaryLogicOperatorNode.java:41)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.prepareLogicOperator(HqlSqlWalker.java:1478)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4719)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:25:07,651 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 19:32:54,389 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+2024-05-21 19:32:54,391 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  Invalid path: 'aw.title'
+org.hibernate.hql.internal.ast.InvalidPathException: Invalid path: 'aw.title'
+	at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:1055)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1308)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4778)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4244)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:32:54,392 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+2024-05-21 19:32:54,392 [main] ERROR o.h.hql.internal.ast.ErrorTracker - <AST>:0:0: unexpected end of subtree
+antlr.NoViableAltException: unexpected end of subtree
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4860)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4247)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 19:32:54,393 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+2024-05-21 19:32:54,393 [main] ERROR o.h.hql.internal.ast.ErrorTracker -  left-hand operand of a binary operator was null
+antlr.SemanticException: left-hand operand of a binary operator was null
+	at org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode.initialize(BinaryLogicOperatorNode.java:41)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.prepareLogicOperator(HqlSqlWalker.java:1478)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4719)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2166)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:832)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:626)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:834)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at model.repositories.ArtWorksRepository.findByTitle(ArtWorksRepository.java:68)
+	at model.services.ArtWorksService.findArtByTitle(ArtWorksService.java:37)
+	at controller.ArtWorksController.findArtByTitle(ArtWorksController.java:34)
+	at view.ArtWorksMenu.findArtByTitle(ArtWorksMenu.java:68)
+	at view.ArtWorksMenu.findArtsMenu(ArtWorksMenu.java:38)
+	at view.Menu.showArtistMenu(Menu.java:174)
+	at view.Menu.showUserMenu(Menu.java:140)
+	at view.Menu.loginMenu(Menu.java:89)
+	at view.Menu.showInitialMenu(Menu.java:43)
+	at view.Main.main(Main.java:7)
+2024-05-21 20:28:30,893 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 21:12:35,346 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 23:36:07,628 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 23:37:16,678 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 23:37:33,298 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 23:38:34,921 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-21 23:39:16,306 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:28:00,341 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:28:29,367 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:38:10,563 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:38:53,862 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:39:32,594 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:40:30,146 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 00:43:44,525 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 10:17:33,453 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 18:38:58,580 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 18:48:49,895 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 19:39:01,583 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:13:50,021 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:14:58,565 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '12-6' for key 'artist_ratings.user_artist_rating'
+2024-05-22 20:16:11,733 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:19:21,835 [Hibernate Connection Pool Validation Thread] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:44:51,708 [Hibernate Connection Pool Validation Thread] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:45:27,441 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Lock wait timeout exceeded; try restarting transaction
+2024-05-22 20:49:37,153 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:49:57,017 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:50:09,449 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:50:22,029 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:50:31,386 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 20:52:32,092 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data source rejected establishment of connection,  message from server: "Too many connections"
+2024-05-22 21:25:51,824 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '10-1' for key 'artist_ratings.user_artist_rating'
+2024-05-22 21:26:08,981 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '10-1' for key 'artist_ratings.user_artist_rating'
+2024-05-23 19:23:12,083 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'artist_name' at row 1
+2024-05-23 19:23:33,241 [main] ERROR org.hibernate.AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in model.entities.ArtistsEntity entry (don't flush the Session after an exception occurs)
+2024-05-23 20:39:42,430 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '18-14' for key 'artist_ratings.user_artist_rating'
+2024-05-23 20:40:16,507 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '18-14' for key 'artist_ratings.user_artist_rating'
+2024-05-23 20:57:43,297 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '18-11' for key 'artist_ratings.user_artist_rating'
+2024-05-23 20:58:01,777 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '18-11' for key 'artist_ratings.user_artist_rating'
+2024-05-24 22:41:21,205 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`creativevault`.`art_ratings`, CONSTRAINT `art_ratings_ibfk_2` FOREIGN KEY (`user_id_fk`) REFERENCES `users` (`id`))
