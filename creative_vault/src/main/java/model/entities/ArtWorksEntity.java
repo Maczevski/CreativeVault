@@ -13,8 +13,9 @@ public class ArtWorksEntity {
 	private Long id;
 	@Column(name = "title")
 	private String title;
-	@Column(name = "picture")
-	private String picture;
+	@Lob
+    @Column(name = "picture")
+    private byte[] picture;
 	@Column(name = "upload_date")
 	private LocalDateTime uploadDate;
 	@Column(name = "art_description")
@@ -35,8 +36,7 @@ public class ArtWorksEntity {
 		
 	}
 	
-	public ArtWorksEntity(Long id, String title, String picture, LocalDateTime uploadDate) {
-		this.id = id;
+	public ArtWorksEntity(String title, byte[] picture, LocalDateTime uploadDate) {
         this.title = title;
         this.picture = picture;
         this.uploadDate = uploadDate;
@@ -58,11 +58,11 @@ public class ArtWorksEntity {
 		this.title = title;
 	}
 
-	public String getPicture() {
+	public byte[] getPicture() {
 		return this.picture;
 	}
 
-	public void setPicture(String picture) {
+	public void setPicture(byte[] picture) {
 		this.picture = picture;
 	}
 

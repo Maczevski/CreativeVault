@@ -150,10 +150,10 @@ public class Menu {
 		do {
 			System.out.println();
 			System.out.println("======================== CREATIVE VAULT ======================\n");
-			System.out.println("1. Find artists");//Done
-			System.out.println("2. Find art works");//Done
-			System.out.println("3. Update profile");//Done
-			System.out.println("4. My Portfolio");//Done
+			System.out.println("1. Find artists");//Not started
+			System.out.println("2. Find art works");//Not started
+			System.out.println("3. Update profile");//Not started
+			System.out.println("4. My Portfolio");//Not started 
 			System.out.println("5. Exit");
 			System.out.println("===============================================================\n");
 			System.out.println();
@@ -202,9 +202,9 @@ public class Menu {
 			System.out.println();
 			System.out.println("======================== CREATIVE VAULT ======================\n");
 			System.out.println("1. Find artists");//Done
-			System.out.println("2. Find art works");//Done
-			System.out.println("3. Update profile");//Done
-			System.out.println("4. Become Artist"); //Done
+			System.out.println("2. Find art works");//doing
+			System.out.println("3. Update profile");//doing
+			System.out.println("4. Become Artist"); //doing
 			System.out.println("5. Exit"); // :P
 			System.out.println("===============================================================\n");
 			System.out.println();

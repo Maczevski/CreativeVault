@@ -12,6 +12,10 @@ public class ArtistsEntity{
 	private Long id;
 	@Column(name = "artist_name")
 	private String artistName;
+	@Lob
+    @Column(name = "profile_picture")
+    private byte[] profilePicture;
+	
 
 	@OneToOne
 	@JoinColumn(name = "user_id_fk")
@@ -47,6 +51,14 @@ public class ArtistsEntity{
 		this.artistName = name;
 	}
 
+	public byte[] getProfilePicture() {
+		return profilePicture;
+	}
+	
+	public void setProfilePicture(byte[] profilePicture) {
+		this.profilePicture = profilePicture;
+	}
+	
 	public UsersEntity getUser() {
 		return this.user;
 	}
